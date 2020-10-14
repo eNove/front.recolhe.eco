@@ -1,26 +1,22 @@
-import React, { useContext } from 'react'
-import { ThemeContext } from 'styled-components';
+import React from 'react'
 
 //import logo from '../../assets/logo.svg'
 
-import { Container, Content, Main } from './styles';
-
 const Home: React.FC = () => {
-    const title = useContext(ThemeContext);
 
-    return (
-        <Container>
-            <Content>
-                <header>
-                    <h1>Aqui vai o logo</h1>
-                </header>
+  return (
+    <>
+      <header>
+        <h1>Aqui é o header</h1>
+      </header>
 
-                <Main>
-                    
-                </Main>
-            </Content>
-        </Container>
-    )
+      <main>
+        <h2>Aqui é o main</h2>
+      </main>
+
+      <footer>Aqui é o footer</footer>
+    </>
+  )
 }
 
 export default Home
