@@ -24,7 +24,7 @@ const Home: React.FC = () => {
     <>
       <Header />
 
-      <main style={mainStyle}>
+      <main className="home" style={mainStyle}>
         <img className="bg1" src={bg1} width="250" aria-hidden alt="" />
         <img className="bg3" src={bg3} width="300" aria-hidden alt="" />
         <section className="banner">
