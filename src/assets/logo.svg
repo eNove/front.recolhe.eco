@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="77px" viewBox="0 0 84 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" fill="#3E4C57">
+            <text id="RECOLHE-ECO" font-family="Poppins-Bold, Poppins" font-size="12" font-weight="bold">
+                <tspan x="0.964" y="76">RECOLHE  ECO</tspan>
+            </text>
+            <g id="Group" transform="translate(11.000000, 0.000000)" fill-rule="nonzero">
+                <g transform="translate(16.000000, 0.000000)" id="Path">
+                    <polygon points="16.8215 7.60354839 7.242 22.5232258 0.34 18.4209677 11.05 0.470322581"></polygon>
+                    <polygon points="11.05 0.470322581 20.077 0.470322581 28.5175 14.8325806 21.76 19.1351613"></polygon>
+                    <polygon points="33.9405 11.2964516 16.082 22.4709677 31.5775 26.973871"></polygon>
+                </g>
+                <g transform="translate(30.000000, 28.000000)" id="Path">
+                    <polygon points="24.5323077 19.5376923 16.494359 4.04461538 23.5820513 0.0761538462 33.6687179 18.0146154"></polygon>
+                    <polygon points="33.6687179 18.0146154 29.0482051 25.8076923 12.2661538 26.1207692 11.9958974 18.2092308"></polygon>
+                    <polygon points="12.5625641 32.5176923 12.0133333 11.6938462 0.174358974 22.88"></polygon>
+                </g>
+                <g transform="translate(0.000000, 24.000000)" id="Path">
+                    <polygon points="8.38709677 22.3915789 25.5387097 23.5957895 25.4380645 31.5031579 5.1916129 30.7536842"></polygon>
+                    <polygon points="5.1916129 30.7536842 0.830322581 22.9557895 8.80645161 8.86736842 15.683871 12.6652632"></polygon>
+                    <polygon points="3.21225806 5.85263158 21.2277419 15.9915789 17.5206452 0.48"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
