@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://some.api.com:3333'
+  baseURL: 'https://api.recolhe.eco/api/v1/api-docs/'
 })
 
 export default api

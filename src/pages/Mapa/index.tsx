@@ -2,15 +2,38 @@ import React, { useEffect, useState } from 'react'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import { usePosition } from 'use-position'
 
+import api from '../../services/api'
+
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
 import '../../styles/globalStyles.css'
 import './styles.scss'
 
+interface PontosColeta {
+  id: string;
+  nome: string;
+  descricao: string;
+  endereco: {
+    cep: string;
+    numero: number;
+    logradouro: string;
+    bairro: string;
+    municipio: string;
+    uf: string;
+    ibge: number;
+    geolocalizacao: {
+      longitude: string;
+      latitude: string;
+    }
+  };
+}
+
 const Mapa: React.FC = () => {
 
   const [position, setPosition] = useState({ lat: -23.6815315, lng: -46.875481, z: 10 })
+
+  const [pontosColeta, setPontosColeta] = useState<PontosColeta[]>([])
 
   useEffect(() => {
     console.log({ _: "useEffect::Position", position })
@@ -23,6 +46,17 @@ const Mapa: React.FC = () => {
       setPosition({ lat: latitude, lng: longitude, z: 15 })
     }
   }, [latitude, longitude, errorMessage])
+
+  useEffect( () => {
+    api.get('pontos-de-coleta')
+      .then(res => {
+        setPontosColeta(res.data)
+      })
+      .catch(err => {
+        // TODO: retorno de erro
+        console.log(err.description)
+      })
+  }, [])
 
   return (
     <>
