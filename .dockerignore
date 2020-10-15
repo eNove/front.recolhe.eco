@@ -1,0 +1,11 @@
+.dockerignore
+.editorconfig
+.eslintignore
+.eslintrc.json
+.git
+.gitignore
+.nvmrc
+Dockerfile
+build
+jest.config.js
+node_modules
