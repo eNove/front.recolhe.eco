@@ -7,7 +7,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier-apply": "yarn prettier --write ."
+    "image-build": "docker build -t recolheeco/front:latest .",
+    "image-push": "docker push recolheeco/front:latest",
+    "deploy": "npm run image-build && npm run image-push"
   },
   "resolutions": {
     "styled-components": "5"
