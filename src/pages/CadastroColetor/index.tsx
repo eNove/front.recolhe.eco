@@ -51,11 +51,11 @@ const CadastroColetor: React.FC = () => {
                 className="required email"
               />
 
-              <label htmlFor="mce-TELEFONE">Telefone</label>
+              <label htmlFor="mce-PHONE">Telefone</label>
               <input
                 type="text"
-                name="TELEFONE"
-                id="mce-TELEFONE"
+                name="PHONE"
+                id="mce-PHONE"
                 aria-required="true"
                 className="required"
               />
