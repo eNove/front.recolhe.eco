@@ -13,19 +13,22 @@ const Header: React.FC = () => {
         <nav>
           <ul>
             <li>
-              <img src={logo} width="100px" alt="Recolhe.eco" />
+              <img src={logo} width="85px" alt="Recolhe.eco" />
             </li>
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/cadastro-coletor">Cadastro do Coletor</Link>
+              <a href="#cadastro-ponto-coleta">Para Pessoas</a>
             </li>
             <li>
-              <Link to="/cadastro-ponto-coleta">Cadastro do Ponto de Coleta</Link>
+              <a href="#cadastro-coletor">Para Coletores</a>
             </li>
             <li>
-              <Link to="/mapa">Mapa</Link>
+              <a href="#mapa">No Mapa</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>

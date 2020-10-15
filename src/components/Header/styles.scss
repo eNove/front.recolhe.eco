@@ -7,19 +7,20 @@ header {
       justify-content: space-between;
       margin: 0 auto;
       list-style: none;
+      align-items: center;
 
       li {
-        display: block;
-        float: left;
-
         a {
           text-decoration: none;
-          color: var(--primary-color);
+          color: var(--text-color);
           padding: 0 0 4px;
           transition: ease 0.25s color;
+          font-family: 'Poppins', sans-serif;
+          text-transform: uppercase;
+          font-size: calc(10px + 1vmin);
 
           &:hover {
-            color: #333;
+            color: var(--primary-color);
           }
         }
       }
