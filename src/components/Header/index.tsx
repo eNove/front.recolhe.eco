@@ -6,10 +6,10 @@ import logo from '../../assets/logo.svg'
 import '../../styles/globalStyles.css'
 import './styles.scss'
 
-const Header: React.FC = () => {
+const Header: React.FC<{ className?: string }> = ({ className}) => {
   return (
     <>
-      <header>
+      <header className={className}>
         <nav>
           <ul>
             <li>
