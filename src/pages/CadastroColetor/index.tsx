@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
 import '../../styles/globalStyles.css'
-import './styles.css'
+import './styles.scss'
 
 const CadastroColetor: React.FC = () => {
   return (
