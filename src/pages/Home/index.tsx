@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -42,7 +43,7 @@ const Home: React.FC = () => {
             meio ambiente. Você pode fazer a sua parte separando o lixo de forma 
             adequada e regitrando sua residência, condomínio ou empresa.
           </p>
-          <a href="/cadastro-ponto-coleta" className="button">Quero fazer parte</a>
+          <Link to="/cadastro-ponto-coleta" className="button">Quero fazer parte</Link>
         </section>
         <section id="cadastro-coletor" className="coletores">
           <img src={coletores} height="300px" alt="para coletores" />
@@ -55,7 +56,7 @@ const Home: React.FC = () => {
           O coletor é peça fundamental, se registre como coletor, 
           associação, cooperativa ou ONGs.
           </p>
-          <a href="/cadastro-coletor" className="button">Quero fazer parte</a>
+          <Link to="/cadastro-coletor" className="button">Quero fazer parte</Link>
         </section>
         <section id="mapa" className="mapa">
           <h2>No Mapa</h2>
@@ -66,7 +67,7 @@ const Home: React.FC = () => {
             ● Veja os coletores registrados e agende uma coleta <br />
             ● Aprenda mais sobre a cadeia de reciclagem na sua região <br />
           </p>
-          <a href="/mapa" className="button">Acessar agora</a>
+          <Link to="/mapa" className="button">Acessar agora</Link>
         </section>
         <section id="contato" className="contato">
           <h2>Contato</h2>
