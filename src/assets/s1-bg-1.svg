@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="307px" height="434px" viewBox="0 0 307 434" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>s1-bg-1</title>
+    <defs>
+        <linearGradient x1="102.207579%" y1="110.943192%" x2="64.7926303%" y2="65.8393964%" id="linearGradient-1">
+            <stop stop-color="#D7FF95" offset="0%"></stop>
+            <stop stop-color="#51FCB7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.4752033%" y1="15.8431644%" x2="38.1379311%" y2="65.799666%" id="linearGradient-2">
+            <stop stop-color="#D7FF95" offset="0%"></stop>
+            <stop stop-color="#51FCB7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="s1-bg-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M-4.00500525,213.122574 C0.0235100689,213.122574 83.3603872,130.641875 141.773859,238.648928 C200.187332,346.655981 334.802841,293.636061 297.599744,433 L-5,433 L-4.00500525,213.122574 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(149.500000, 308.000000) scale(1, -1) translate(-149.500000, -308.000000) "></path>
+        <path d="M-2.00500525,31.1225738 C2.02351007,31.1225738 85.3603872,-51.358125 143.773859,56.648928 C202.187332,164.655981 336.802841,111.636061 299.599744,251 L-3,251 L-2.00500525,31.1225738 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+    </g>
+</svg>
