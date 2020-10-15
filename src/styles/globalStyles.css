@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500;700&display=swap');
 
 :root {
-  --primary-color: #50fa7b;
-  --background-color: #f5f3f0;
-  --text-color: #333;
-  --title-color: #282a36;
+  --primary-color: #389686;
+  --background-color: #ffffff;
+  --text-color: #3E4C57;
 }
 
 * {
@@ -76,7 +75,7 @@ h3,
 h4,
 h5,
 strong {
-  color: var(--title-color);
+  color: var(--text-color);
   font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
