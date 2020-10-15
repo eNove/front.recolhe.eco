@@ -6,19 +6,15 @@ import Footer from '../../components/Footer'
 import '../../styles/globalStyles.css'
 import './styles.css'
 
-//import logo from '../../assets/logo.svg'
-
-const Home: React.FC = () => {
+const CadastroPontoColeta: React.FC = () => {
   return (
     <>
       <Header />
-
       <main>
       </main>
-
       <Footer />
     </>
   )
 }
 
-export default Home
+export default CadastroPontoColeta
