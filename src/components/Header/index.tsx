@@ -19,16 +19,16 @@ const Header: React.FC = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#cadastro-ponto-coleta">Para Pessoas</a>
+              <a href="/#cadastro-ponto-coleta">Para Pessoas</a>
             </li>
             <li>
-              <a href="#cadastro-coletor">Para Coletores</a>
+              <a href="/#cadastro-coletor">Para Coletores</a>
             </li>
             <li>
-              <a href="#mapa">No Mapa</a>
+              <a href="/#mapa">No Mapa</a>
             </li>
             <li>
-              <a href="#contato">Contato</a>
+              <a href="/#contato">Contato</a>
             </li>
           </ul>
         </nav>

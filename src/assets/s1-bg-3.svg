@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="1287px" viewBox="0 0 370 1287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>s1-bg-3</title>
+    <defs>
+        <linearGradient x1="28.3549287%" y1="120.869872%" x2="71.9360668%" y2="37.9716582%" id="linearGradient-1">
+            <stop stop-color="#D7FF95" offset="0%"></stop>
+            <stop stop-color="#63D9ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="s1-bg-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-66.385599, 820.805694) rotate(10.000000) translate(66.385599, -820.805694) translate(-478.385599, 15.305694)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M885.149248,879.40437 C885.149248,879.40437 896.717488,722.335305 706.145967,727.059187 C586.347717,730.035232 488.175986,895.937956 292.124773,977.424914 C189.130913,1020.22328 -242.44965,1089.6171 5.96306589,1525.39519 L873.775843,1525.39519 L885.149248,879.40437 Z" id="Path" transform="translate(407.642418, 1126.174958) scale(1, -1) rotate(89.000000) translate(-407.642418, -1126.174958) "></path>
+            <path d="M893.336698,238.44964 C893.336698,238.44964 904.904937,81.3805751 714.333417,86.1044568 C594.535167,89.0805022 496.363435,254.983226 300.312223,336.470184 C197.318362,379.268552 -234.262201,448.662373 14.1505153,884.440456 L881.963292,884.440456 L893.336698,238.44964 Z" id="Path" transform="translate(415.829867, 485.220228) scale(-1, -1) rotate(-89.000000) translate(-415.829867, -485.220228) "></path>
+        </g>
+    </g>
+</svg>
