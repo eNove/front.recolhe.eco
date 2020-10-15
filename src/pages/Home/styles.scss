@@ -1,19 +1,24 @@
+$break-small: 400px;
+$break-large: 1200px;
+
 main {
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-position: right top;
+
     img {
         &.bg1 {
             display: block;
             position: absolute;
-            top: 0;
             top: 550px;
             left: 0;
-        }
-
-        &.bg2 {
-            display: block;
-            position: absolute;
-            top: 0;
-            top: 160px;
-            right: -50px;
+            
+            @media screen and (max-width: $break-small) {
+                top: 550px;
+            }
         }
 
         &.bg3 {
@@ -26,16 +31,16 @@ main {
     }
     
     section {
-        padding-left: calc(75px + 1vmin);
-        padding-right: calc(75px + 1vmin);
-        height: 1vh;
+        padding-left: calc(50px + 1vmin);
+        padding-right: calc(50px + 1vmin);
         min-width: 1024px;
-        background-attachment: fixed;
-        height: 650px;
+        width: 100%;
         
         &.banner {
             position: relative;
             overflow: hidden;
+            height: 650px;
+            
             h1 {
                 position: relative;
                 display: block;
@@ -94,6 +99,8 @@ main {
             display: block;
             padding-top: 200px;
             padding-right: 150px;
+            height: auto;
+            overflow: hidden;
 
             img {
                 display: block;
@@ -135,7 +142,9 @@ main {
         &.coletores {
             display: block;
             padding-top: 100px;
-            padding-left: 225px;
+            padding-left: 180px;
+            height: auto;
+            overflow: hidden;
 
             img {
                 display: block;
@@ -176,6 +185,9 @@ main {
 
         &.mapa {
             display: block;
+            padding-top: 100px;
+            height: auto;
+            overflow: hidden;
 
             img {
                 display: block;
@@ -224,6 +236,7 @@ main {
             height: auto;
             padding-bottom: 150px;
             overflow: hidden;
+            padding-top: 100px;
 
             h2 {
                 font-family: 'Bebas Neue', cursive;

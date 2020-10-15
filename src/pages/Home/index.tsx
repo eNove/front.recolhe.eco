@@ -14,15 +14,18 @@ import mapa from '../../assets/mapa.svg'
 import '../../styles/globalStyles.css'
 import './styles.scss'
 
+var mainStyle = {
+  backgroundImage: `url(${bg2})`
+}
+
 const Home: React.FC = () => {
   return (
     <>
       <Header />
 
-      <main>
-        <img className="bg1" src={bg1} width="307" aria-hidden alt="" />
-        <img className="bg2" src={bg2} width="750" aria-hidden alt="" />
-        <img className="bg3" src={bg3} width="370" aria-hidden alt="" />
+      <main style={mainStyle}>
+        <img className="bg1" src={bg1} width="250" aria-hidden alt="" />
+        <img className="bg3" src={bg3} width="300" aria-hidden alt="" />
         <section className="banner">
           <img src={banner} height="650px" alt="Facilitamos a coleta de recicláveis" />
           <h1>Facilitamos a <strong>coleta</strong> de recicláveis</h1>
@@ -30,7 +33,7 @@ const Home: React.FC = () => {
           <a href="#cadastro-ponto-coleta" className="button">Quero fazer parte</a>
         </section>
         <section id="cadastro-ponto-coleta" className="pessoas">
-          <img src={pessoas} width="450px" alt="para pessoas" />
+          <img src={pessoas} height="400px" alt="para pessoas" />
           <h2>Para Pessoas</h2>
           <p>
             Por ano cada pessoa gera pelo menos 380 kilos de lixo,
@@ -42,7 +45,7 @@ const Home: React.FC = () => {
           <a href="/cadastro-ponto-coleta" className="button">Quero fazer parte</a>
         </section>
         <section id="cadastro-coletor" className="coletores">
-          <img src={coletores} width="480px" alt="para coletores" />
+          <img src={coletores} height="300px" alt="para coletores" />
           <h2>Para Coletores</h2>
           <p>
           O “reconhecimento do resíduo sólido reutilizável e reciclável 
@@ -56,7 +59,7 @@ const Home: React.FC = () => {
         </section>
         <section id="mapa" className="mapa">
           <h2>No Mapa</h2>
-          <img src={mapa} width="480px" alt="no mapa" />
+          <img src={mapa} height="300px" alt="no mapa" />
           <p>
             ● Conheça os pontos de coleta da sua cidade <br />
             ● Registre sua casa, condomínio ou empresa como um ponto <br />
