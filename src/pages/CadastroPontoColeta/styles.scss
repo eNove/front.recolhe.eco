@@ -10,7 +10,7 @@ main {
       width: 200px;
     }
 
-    &.bg3-coletor {
+    &.bg3-ponto-coleta {
       display: block;
       position: absolute;
       z-index: 1;
@@ -29,7 +29,7 @@ main {
     background-attachment: fixed;
     height: 650px;
 
-    &.coletor {
+    &.ponto-coleta {
       position: relative;
       top: 50px;
       z-index: 99;
@@ -70,7 +70,7 @@ main {
           }
         }
 
-        &.form-coletor {
+        &.form-ponto-coleta {
           position: relative;
           top: 50px;
           z-index: 99;
