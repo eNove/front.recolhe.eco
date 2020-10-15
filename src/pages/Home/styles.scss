@@ -1,4 +1,20 @@
 main {
+    img {
+        display: block;
+        position: absolute;
+        top: 0;
+
+        &.bg1 {
+            top: 550px;
+            left: 0;
+        }
+
+        &.bg2 {
+            top: 160px;
+            right: -50px;
+        }
+    }
+    
     section {
         padding-left: calc(75px + 1vmin);
         height: 1vh;
@@ -60,16 +76,6 @@ main {
                 position: absolute;
                 top: 0;
                 right: -150px;
-
-                &.bg1 {
-                    position: inherit;
-                    left: calc(calc(75px + 1vmin) * -1);
-                    margin-top: 30px;
-                }
-
-                &.bg2 {
-                    right: -50px;
-                }
             }
         }
 

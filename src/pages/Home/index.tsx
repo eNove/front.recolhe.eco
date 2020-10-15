@@ -18,13 +18,13 @@ const Home: React.FC = () => {
       <Header />
 
       <main>
+        <img className="bg1" src={bg1} width="307" aria-hidden alt="" />
+        <img className="bg2" src={bg2} width="750" aria-hidden alt="" />
         <section className="banner">
-          <img className="bg2" src={bg2} width="750" aria-hidden alt="" />
           <img src={banner} height="650px" alt="Facilitamos a coleta de recicláveis" />
           <h1>Facilitamos a <strong>coleta</strong> de recicláveis</h1>
           <strong>conectando pessoas</strong>
           <a href="#cadastro-ponto-coleta" className="button">Quero fazer parte</a>
-          <img className="bg1" src={bg1} width="307" aria-hidden alt="" />
         </section>
         <section className="pessoas">
         </section>
