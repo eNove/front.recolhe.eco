@@ -5,7 +5,6 @@ import './styles.css'
 //import logo from '../../assets/logo.svg'
 
 const Home: React.FC = () => {
-
   return (
     <>
       <header>
@@ -14,6 +13,8 @@ const Home: React.FC = () => {
 
       <main>
         <h2>Aqui é o main</h2>
+        <br />
+        <br />
       </main>
 
       <footer>Aqui é o footer</footer>
