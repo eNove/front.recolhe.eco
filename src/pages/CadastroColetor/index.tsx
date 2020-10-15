@@ -10,8 +10,7 @@ const CadastroColetor: React.FC = () => {
   return (
     <>
       <Header />
-      <main>
-      </main>
+      <main></main>
       <Footer />
     </>
   )

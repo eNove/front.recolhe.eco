@@ -10,8 +10,7 @@ const CadastroPontoColeta: React.FC = () => {
   return (
     <>
       <Header />
-      <main>
-      </main>
+      <main></main>
       <Footer />
     </>
   )
