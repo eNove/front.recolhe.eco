@@ -33,6 +33,7 @@ const Mapa: React.FC = () => {
 
   const [position, setPosition] = useState({ lat: -23.6815315, lng: -46.875481, z: 10 })
 
+  const IdMunicipio = '3509502' //Campinas
   const [pontosColeta, setPontosColeta] = useState<PontosColeta[]>([])
 
   useEffect(() => {
@@ -48,7 +49,7 @@ const Mapa: React.FC = () => {
   }, [latitude, longitude, errorMessage])
 
   useEffect( () => {
-    api.get('pontos-de-coleta')
+    api.get(`/pontos-de-coleta/municipio/${IdMunicipio}`)
       .then(res => {
         setPontosColeta(res.data)
       })
