@@ -23,39 +23,31 @@ interface PontosColeta {
     uf: string;
     ibge: number;
     geolocalizacao: {
-      longitude: string;
-      latitude: string;
+      longitude: number;
+      latitude: number;
     }
   };
 }
 
 const Mapa: React.FC = () => {
-
-  const [position, setPosition] = useState({ lat: -23.6815315, lng: -46.875481, z: 10 })
-
-  const IdMunicipio = '3509502' //Campinas
-  const [pontosColeta, setPontosColeta] = useState<PontosColeta[]>([])
-
-  useEffect(() => {
-    console.log({ _: "useEffect::Position", position })
-  }, [position])
-
+  const [position, setPosition] = useState({ lat: -22.8142434, lng: -47.0665178, z: 12 })
   const { latitude, longitude, errorMessage } = usePosition(true);
   useEffect(() => {
     console.log({ _: "useEffect::UsePosition", latitude, longitude, errorMessage })
-    if(latitude && longitude) {
+    if (latitude && longitude) {
       setPosition({ lat: latitude, lng: longitude, z: 15 })
     }
   }, [latitude, longitude, errorMessage])
 
-  useEffect( () => {
-    api.get(`/pontos-de-coleta/municipio/${IdMunicipio}`)
-      .then(res => {
-        setPontosColeta(res.data)
+  const [pontosColeta, setPontosColeta] = useState<Array<PontosColeta>>([])
+  useEffect(() => {
+    api.get('/pontos-de-coleta')
+      .then(({ data }) => {
+        console.log({ _: "API", data })
+        setPontosColeta(data)
       })
       .catch(err => {
-        // TODO: retorno de erro
-        console.log(err.description)
+        console.log({ _: "API::Error", err })
       })
   }, [])
 
