@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="41px" viewBox="0 0 28 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>marker</title>
+    <g id="marker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(1.000000, 1.000000)">
+            <path d="M13.5235847,17.6703654 L23.4148042,37.9734761 L3.61464699,37.9823352 L13.5235847,17.6703654 Z" id="Triangle" stroke="#389686" stroke-width="2" fill="#389686" transform="translate(13.513902, 27.185697) rotate(179.000000) translate(-13.513902, -27.185697) "></path>
+            <ellipse id="Oval" stroke="#389686" stroke-width="3" fill="#FFFFFF" cx="13" cy="13.3333333" rx="11.5" ry="11.8333333"></ellipse>
+            <g id="Group" transform="translate(5.000000, 5.128205)" fill="#3E4C57" fill-rule="nonzero">
+                <g transform="translate(4.000000, 0.000000)" id="Path">
+                    <polygon points="3.958 2.02183623 1.704 5.98908189 0.08 4.89826303 2.6 0.125062035"></polygon>
+                    <polygon points="2.6 0.125062035 4.724 0.125062035 6.71 3.94408602 5.12 5.08817204"></polygon>
+                    <polygon points="7.986 3.0038048 3.784 5.9751861 7.43 7.17253929"></polygon>
+                </g>
+                <g transform="translate(8.000000, 7.179487)" id="Path">
+                    <polygon points="5.77230769 4.85785667 3.88102564 1.00565417 5.54871795 0.0189349112 7.92205128 4.47915845"></polygon>
+                    <polygon points="7.92205128 4.47915845 6.83487179 6.41683103 2.88615385 6.49467456 2.8225641 4.52754767"></polygon>
+                    <polygon points="2.95589744 8.0852071 2.82666667 2.90756082 0.041025641 5.68888889"></polygon>
+                </g>
+                <g transform="translate(0.000000, 6.153846)" id="Path">
+                    <polygon points="2.25806452 5.7414305 6.87580645 6.05020243 6.84870968 8.07773279 1.39774194 7.88556005"></polygon>
+                    <polygon points="1.39774194 7.88556005 0.223548387 5.88609987 2.37096774 2.27368421 4.22258065 3.24750337"></polygon>
+                    <polygon points="0.86483871 1.50067476 5.71516129 4.10040486 4.71709677 0.123076923"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
