@@ -31,10 +31,11 @@ main {
 
     &.coletor {
       position: relative;
-      top: 50px;
       z-index: 99;
       overflow: hidden;
       display: flex;
+      margin-top: 50px;
+      height: 600px;
 
       div {
         justify-content: space-between;
